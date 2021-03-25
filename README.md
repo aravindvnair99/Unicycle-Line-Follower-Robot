@@ -1,8 +1,8 @@
 # Unicycle Line Follower Robot
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/OutliersTeam/<repo-name>)
-![GitHub contributors](https://img.shields.io/github/contributors/OutliersTeam/<repo-name>)
+![GitHub repo size](https://img.shields.io/github/repo-size/OutliersTeam/Unicycle-Line-Follower-Robot)
+![GitHub contributors](https://img.shields.io/github/contributors/OutliersTeam/Unicycle-Line-Follower-Robot)
 
 ## Problem Statement:
 Design a Unicycle Kinematic model to follow a line. The input for the system is line equation to be followed. Verify the system with inbuilt model in simulink.
