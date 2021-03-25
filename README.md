@@ -1,41 +1,14 @@
-# Project name
+# Unicycle Line Follower Robot
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/OutliersTeam/<repo-name>)
 ![GitHub contributors](https://img.shields.io/github/contributors/OutliersTeam/<repo-name>)
 
-Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+## Problem Statement:
+Design a Unicycle Kinematic model to follow a line. The input for the system is line equation to be followed. Verify the system with inbuilt model in simulink.
 
-Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
-
-## Installing <project_name>
-
-To install <project_name>, follow these steps:
-
-Linux and macOS:
-```
-<install_command>
-```
-
-Windows:
-```
-<install_command>
-```
-## Using <project_name>
-
-To use <project_name>, follow these steps:
-
-```
-<usage_example>
-```
+### Explanation:
+The problem statement requires us to design a Unicycle Kinematic Model which is used to describe the location and orientation of a mobile robot approximated to having a single adjustable wheel. Simulink/MATLAB is to be utilized to create a subsystem with inputs that are the controllable parameters of a Unicycle Model – velocity of the robot (v) and the angular velocity (𝜔) ; and effectively calculate the position of the Robot [ 𝑥, 𝑦, 𝜃].The Unicycle Model thus created need to be utilized to design a Robot that follows a Line, whose equation is given by the user. Given any starting pose[ 𝑥, 𝑦, 𝜃] and line equation (𝐴𝑥 + 𝐵𝑦 + 𝑐) in the 2D plane, the robot should navigate the plane to move along the provided line equation. Finally we have to verify the system designed with the inbuilt model and compare the results.
 
 ## Contributing to <project_name>
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
